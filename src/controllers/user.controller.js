@@ -15,6 +15,12 @@ export async function getController(req, res, next) {
 export async function postController(req, res, next) {
     try {
         const data = req.body;
+
+        // Agrega una verificación simple del formato de los datos
+        if (!data || typeof data !== 'object') {
+            throw new Error('Invalid data format');
+        }
+
         const usuario = await usuariosService.registrar(data);
         logger.info(JSON.stringify(usuario));
         res.json(usuario);
