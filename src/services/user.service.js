@@ -31,16 +31,8 @@ class UsuariosService {
                 throw new Error('Unexpected response format');
             }
         } catch (error) {
-            if (error.response) {
-                logger.error(`Error posting data to external API: ${error.response.status} - ${error.response.statusText}`);
-                logger.error(`Response data: ${JSON.stringify(error.response.data)}`);
-            } else if (error.request) {
-                logger.error(`Error posting data to external API: No response received`);
-                logger.error(`Request data: ${error.request}`);
-            } else {
-                logger.error(`Error posting data to external API: ${error.message}`);
-            }
-            throw new Error('Failed to post data');
+            logger.error('Error fetching data from external API:', error);
+            throw new Error('Failed to fetch data');
         }
     }
 }
