@@ -2,21 +2,21 @@ import logger from "../middlewares/logger.js";
 import axios from 'axios'
 
 class UsuariosService {
-    async buscarTodos(req, res) {
+    async buscarTodos() {
         try {
             const response = await axios.get('http://menu-iota-ten.vercel.app/api/clientes/');
             if (response.data && response.data.status === 'success') {
-                logger.info(response.data.payload)
-                res.json(response.data.payload);
+                logger.info(response.data.payload);
+                return response.data.payload;
             } else {
-                logger.error('Unexpected response format')
-                res.status(500).json({ error: 'Unexpected response format' });
+                logger.error('Unexpected response format');
+                throw new Error('Unexpected response format');
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            res.status(500).json({ error: 'Failed to fetch data' });
+            throw new Error('Failed to fetch data');
         }
     }
 }
 
-export const usuariosService = new UsuariosService()
+export const usuariosService = new UsuariosService();
