@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { getController } from "../controllers/user.controller.js";
+import axios from 'axios'
 
 export const userRouter = Router()
 
