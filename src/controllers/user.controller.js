@@ -1,15 +1,16 @@
-import logger from "../middlewares/logger.js"
+import axios from 'axios';
+import https from 'https';
+import logger from '../middlewares/logger.js';
 
-const url_post = 'https://menu-iota-ten.vercel.app/api/clientes/'
 
-export async function postController(req, res, next) {
+export async function getController(req, res, next) {
     try {
-        const response = await axios.post(url_post, req.body);
-        console.log(url_post)
-        logger.info(response)
+        const response = await axios.get('http://menu-iota-ten.vercel.app/api/clientes/');
+        logger.info(response.data);
         res.json(response.data);
     } catch (error) {
-        logger.error(error)
-        next(error)
+        logger.error(`Error message: ${error.message}`);
+        logger.error(`Error stack: ${error.stack}`);
+        next(error);
     }
 }
