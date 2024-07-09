@@ -18,7 +18,7 @@ export async function postController(req, res, next) {
     try {
         const data = req.body;
         const result = await usuariosService.registrar(data);
-        logger.info(usuario);
+        logger.info(result);
         res.status(200).json(result);
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
