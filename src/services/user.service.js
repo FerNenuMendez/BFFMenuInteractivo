@@ -41,20 +41,11 @@ class UsuariosService {
                 headers: {
                     'Content-Type': 'application/json'
                 }
-            };
+            }
             const response = await axios.post('http://menu-iota-ten.vercel.app/api/clientes/', data, config);
             return response.data;
         } catch (error) {
-            console.error('Error al registrar usuario:', error.message);
-            if (error.response) {
-                console.error('Datos de la respuesta del error:', error.response.data);
-                console.error('Código de estado:', error.response.status);
-                console.error('Encabezados:', error.response.headers);
-            } else if (error.request) {
-                console.error('No se recibió respuesta:', error.request);
-            } else {
-                console.error('Error al configurar la solicitud:', error.message);
-            }
+            logger.error('Error fetching data from external API:', error);
             throw new Error('Failed to fetch data');
         }
     }
