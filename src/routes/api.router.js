@@ -2,6 +2,7 @@ import { Router, json, urlencoded } from 'express'
 import { respuestasMejoradas } from '../middlewares/resp.js'
 import { manejoDeErrores } from '../middlewares/manejoDeErrores.js'
 import { userRouter } from './user.router.js'
+import { sessionRouter } from './session.router.js'
 
 export const apiRouter = Router()
 
@@ -11,7 +12,7 @@ apiRouter.use(json())
 apiRouter.use(urlencoded({ extended: true }))
 
 apiRouter.use('/usuarios', userRouter)
-
+apiRouter.use('/session', sessionRouter)
 
 apiRouter.get('/', (req, res) => {
     res.send('Api Router funcionando OK')

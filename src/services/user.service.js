@@ -1,7 +1,7 @@
 import logger from "../middlewares/logger.js";
 import axios from 'axios'
-import { hasheadaSonIguales } from "../middlewares/auth.js";
-import { buscarPorId } from "../middlewares/utils.js";
+import { hasheadaSonIguales } from "../middlewares/crypto.js";
+
 
 class UsuariosService {
     async buscarTodos() {
@@ -22,12 +22,10 @@ class UsuariosService {
 
     async buscarUno(id) {
         try {
-            const clientes = await axios.get('http://menu-iota-ten.vercel.app/api/clientes/');
-            if (clientes.data && clientes.data.status === 'success') {
-                logger.info(clientes.data.payload);
-                const clientesDB = clientes.data.payload
-                const clienteBuscado = buscarPorId(clientesDB, id)
-                return clienteBuscado
+            const cliente = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/id/${id}`);
+            if (cliente.data && cliente.data.status === 'success') {
+                logger.info(cliente.data.payload);
+                return cliente
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
@@ -47,13 +45,13 @@ class UsuariosService {
 
     async verificarCliente({ mail, password }) {
         try {
-            // const user = await this.findOne({ mail }) buscar el usuario con buscarUno(id)
+            const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
             if (!user) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: No existe el usuario")
                 throw typedError
             }
-            if (!hasheadaSonIguales(password, user.password)) {
+            if (!hasheadaSonIguales(password, user.payload.password)) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: La contraseña es incorrecta")
                 throw typedError
