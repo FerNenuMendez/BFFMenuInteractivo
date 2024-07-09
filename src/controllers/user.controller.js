@@ -15,11 +15,8 @@ export async function getController(req, res, next) {
 export async function postController(req, res, next) {
     try {
         const data = req.body;
-        if (!data || typeof data !== 'object') {
-            throw new Error('Invalid data format');
-        }
         const usuario = await usuariosService.registrar(data);
-        logger.info(JSON.stringify(usuario));
+        logger.info(usuario);
         res.json(usuario);
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
