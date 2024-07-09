@@ -35,7 +35,7 @@ class UsuariosService {
         }
     }
 
-    static async registrar(data) {
+    async registrar(data) {
         try {
             const config = {
                 headers: {

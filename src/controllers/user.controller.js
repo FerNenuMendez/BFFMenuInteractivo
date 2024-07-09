@@ -1,6 +1,8 @@
 import { usuariosService } from '../services/user.service.js';
 import logger from '../middlewares/logger.js';
 
+console.log('usuariosService:', usuariosService)
+
 export async function getController(req, res, next) {
     try {
         const usuarios = await usuariosService.buscarTodos();
