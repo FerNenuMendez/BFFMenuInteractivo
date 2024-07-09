@@ -37,12 +37,7 @@ class UsuariosService {
 
     async registrar(data) {
         try {
-            const config = {
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            }
-            const response = await axios.post('http://menu-iota-ten.vercel.app/api/clientes/', data, config);
+            const response = await axios.post('http://menu-iota-ten.vercel.app/api/clientes/', data);
             return response.data;
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
