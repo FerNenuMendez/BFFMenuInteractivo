@@ -1,3 +1,5 @@
+import { compareSync } from "bcrypt";
+
 export function soloRoles(roles) {
   return async function (req, res, next) {
     if (roles.includes(req.user.rol)) {
@@ -8,3 +10,9 @@ export function soloRoles(roles) {
     next(typedError)
   }
 }
+
+export function hasheadaSonIguales(recibida, almacenada) {
+  if (!recibida) throw new Error('cannot hash invalid parameter:' + recibida)
+  return compareSync(recibida, almacenada)
+}
+
