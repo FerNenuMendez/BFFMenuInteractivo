@@ -9,7 +9,7 @@ export async function postController(req, res, next) {
         const cliente = await usuariosService.verificarCliente(data);
         logger.info(cliente);
         req.user = JSON.parse(cliente)
-        await newToken()
+        await newToken(req, res)
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);
