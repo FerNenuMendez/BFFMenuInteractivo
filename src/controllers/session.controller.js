@@ -9,12 +9,14 @@ export async function postController(req, res, next) {
         const cliente = await usuariosService.verificarCliente(data);
         logger.info(cliente);
         req.user = cliente
-        newToken
+        // newToken
+        next()
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);
         next(error);
     }
+    res.sendStatus(200)
 }
 
 logger.info('Session Controller Cargado')
