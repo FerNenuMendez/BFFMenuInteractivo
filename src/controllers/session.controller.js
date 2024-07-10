@@ -7,7 +7,7 @@ export async function postController(req, res, next) {
     try {
         const data = req.body;
         const cliente = await usuariosService.verificarCliente(data);
-        logger.info(cliente.nombre, cliente.mail);
+        logger.info(cliente);
         req.user = cliente
         logger.info(req.user)
         next()

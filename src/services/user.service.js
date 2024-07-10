@@ -56,7 +56,8 @@ class UsuariosService {
                 logger.error("error de autenticacion: La contraseña es incorrecta")
                 throw typedError
             }
-            return user.data.payload
+            const usuario = JSON.stringify(user.data.payload, null, 2)
+            return usuario
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
             throw new Error('Failed to fetch data');
