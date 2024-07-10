@@ -46,13 +46,13 @@ class UsuariosService {
     async verificarCliente({ mail, password }) {
         try {
             const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
-            console.log(user.data.payload)
+            console.log(user.data.payload.password)
             if (!user) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: No existe el usuario")
                 throw typedError
             }
-            if (!hasheadaSonIguales(password, user.password)) {
+            if (!hasheadaSonIguales(password, user.data.payload.password)) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: La contraseña es incorrecta")
                 throw typedError
