@@ -6,6 +6,7 @@ const cookieOpts = { httpOnly: true, maxAge: 1000 * 60 * 60 /*1hs*/, signed: tru
 export async function newToken(req, res) {
     try {
         const data = {
+            id: req.user.id,
             user: req.user.mail,
             nombre: req.user.nombre,
             timestamp: Date.now()

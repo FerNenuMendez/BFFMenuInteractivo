@@ -4,5 +4,5 @@ import { refreshToken } from "../middlewares/token.js";
 
 export const userRouter = Router()
 
-userRouter.get('/', refreshToken, getController);
+
 userRouter.post('/', postController)
