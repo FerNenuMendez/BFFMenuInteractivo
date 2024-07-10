@@ -1,6 +1,7 @@
 import logger from "../middlewares/logger.js";
 import axios from 'axios'
 import { hasheadaSonIguales } from "../middlewares/crypto.js";
+import { newToken } from "../middlewares/token.js"
 
 
 class UsuariosService {
