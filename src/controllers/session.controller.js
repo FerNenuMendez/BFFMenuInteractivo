@@ -9,7 +9,6 @@ export async function postController(req, res, next) {
         const cliente = await usuariosService.verificarCliente(data);
         logger.info(cliente);
         req.user = cliente
-        logger.info(req.user)
         next()
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
