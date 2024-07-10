@@ -51,7 +51,7 @@ class UsuariosService {
                 logger.error("error de autenticacion: No existe el usuario")
                 throw typedError
             }
-            if (!hasheadaSonIguales(password, user.payload.password)) {
+            if (!hasheadaSonIguales(password, user.password)) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: La contraseña es incorrecta")
                 throw typedError
