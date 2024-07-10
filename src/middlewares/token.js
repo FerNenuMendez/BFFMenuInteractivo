@@ -11,7 +11,6 @@ export async function newToken(req, res, next) {
         }
         const token = await encriptar(data)
         res.status(201).send({ token: token })
-        next()
     } catch (error) {
         next(error)
     }
@@ -20,5 +19,4 @@ export async function newToken(req, res, next) {
 
 export function deleteTokenFromCookie(req, res, next) {
     res.clearCookie('sessionID', cookieOpts)
-    next()
 }
