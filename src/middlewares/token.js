@@ -2,7 +2,7 @@ import { encriptar } from "./crypto.js";
 
 const cookieOpts = { httpOnly: true, maxAge: 1000 * 60 * 60 /*1hs*/, signed: true }
 
-export async function newToken(req, res, next) {
+export async function newToken(req, res) {
     try {
         const data = {
             user: req.user.mail,
