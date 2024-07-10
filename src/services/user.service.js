@@ -46,7 +46,6 @@ class UsuariosService {
     async verificarCliente({ mail, password }) {
         try {
             const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
-            console.log(user.data.payload.password)
             if (!user) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: No existe el usuario")
@@ -57,6 +56,7 @@ class UsuariosService {
                 logger.error("error de autenticacion: La contraseña es incorrecta")
                 throw typedError
             }
+            return user.data.payload
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
             throw new Error('Failed to fetch data');
