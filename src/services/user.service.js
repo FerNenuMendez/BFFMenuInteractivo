@@ -46,6 +46,7 @@ class UsuariosService {
     async verificarCliente({ mail, password }) {
         try {
             const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
+            console.log(user.data.payload)
             if (!user) {
                 const typedError = new Error('Autenticacion Fallida')
                 logger.error("error de autenticacion: No existe el usuario")
