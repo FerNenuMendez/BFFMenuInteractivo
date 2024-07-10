@@ -3,7 +3,7 @@ import logger from '../middlewares/logger.js'
 
 const cookieOpts = { httpOnly: true, maxAge: 1000 * 60 * 60 /*1hs*/, signed: true }
 
-export async function newToken(req, res, next) {
+export async function newToken(req, res) {
     try {
         const data = {
             user: req.user.mail,
@@ -14,7 +14,7 @@ export async function newToken(req, res, next) {
         res.status(201).send({ token: token })
     } catch (error) {
         logger.error(`Error message: ${error.message}`)
-        next(error)
+        res.status(500).send({ error: 'Failed to generate token' });
     }
 }
 
