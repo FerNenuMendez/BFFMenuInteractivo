@@ -7,8 +7,11 @@ export async function newToken(req, res) {
     try {
         const data = {
             id: req.user.id,
-            user: req.user.mail,
+            mail: req.user.mail,
             nombre: req.user.nombre,
+            apellido: req.user.apellido,
+            cuit: req.user.cuit,
+            tiendas: req.user.tiendas,
             timestamp: Date.now()
         }
         const token = await encriptar(data)
