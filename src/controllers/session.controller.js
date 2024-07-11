@@ -3,10 +3,6 @@ import { newToken } from '../middlewares/token.js'
 import logger from '../middlewares/logger.js';
 
 
-export async function getController(req, res) {
-
-}
-
 export async function postController(req, res, next) {
     try {
         const data = req.body;

@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { postController } from "../controllers/user.controller.js";
+import { getController, postController } from "../controllers/user.controller.js";
 import { refreshToken } from "../middlewares/token.js";
 
 export const userRouter = Router()
 
-
+userRouter.get('/current', getController)
 userRouter.post('/', postController)
