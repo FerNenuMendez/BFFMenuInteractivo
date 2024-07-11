@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors';
 import { apiRouter } from '../routes/api.router.js'
+import { cookies } from '../middlewares/cookies.js'
 
 export const app = express()
 
@@ -10,7 +11,7 @@ const corsOptions = {
     credentials: false,
     optionsSuccessStatus: 200,
 };
-
+app.use(cookies)
 app.use(cors(corsOptions));
 app.use('/api', apiRouter)
 app.get('/', (req, res) => {
