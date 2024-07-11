@@ -1,5 +1,5 @@
 import { usuariosService } from '../services/user.service.js';
-import { newToken } from '../middlewares/token.js'
+import { newToken, deleteTokenFromCookie } from '../middlewares/token.js'
 import logger from '../middlewares/logger.js';
 
 
@@ -15,6 +15,13 @@ export async function postController(req, res, next) {
         logger.error(`Error stack: ${error.stack}`);
         next(error);
     }
+}
+
+export async function deleteController(req, res) {
+    deleteTokenFromCookie,
+        (req, res) => {
+            res.sendStatus(204)
+        }
 }
 
 logger.info('Session Controller Cargado')
