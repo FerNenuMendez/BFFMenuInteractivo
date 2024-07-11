@@ -2,7 +2,7 @@ import { usuariosService } from '../services/user.service.js';
 import logger from '../middlewares/logger.js';
 import { refreshToken } from '../middlewares/token.js';
 
-
+// Current
 export async function getController(req, res, next) {
     try {
         await refreshToken(req, res, async (err) => {
@@ -16,7 +16,7 @@ export async function getController(req, res, next) {
         next(error);
     }
 }
-
+// CREAR Usuario
 export async function postController(req, res, next) {
     try {
         const data = req.body;
