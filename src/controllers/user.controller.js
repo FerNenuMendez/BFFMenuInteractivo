@@ -1,6 +1,7 @@
 import { usuariosService } from '../services/user.service.js';
-import logger from '../middlewares/logger.js';
 import { refreshToken } from '../middlewares/token.js';
+import logger from '../middlewares/logger.js';
+
 
 // Current
 export async function getController(req, res, next) {
@@ -17,6 +18,7 @@ export async function getController(req, res, next) {
         next(error);
     }
 }
+
 // CREAR Usuario
 export async function postController(req, res, next) {
     try {
@@ -30,5 +32,6 @@ export async function postController(req, res, next) {
         next(error);
     }
 }
+
 
 logger.info('User Controller Cargado')

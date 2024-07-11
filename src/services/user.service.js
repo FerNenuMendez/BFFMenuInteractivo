@@ -1,7 +1,7 @@
 import logger from "../middlewares/logger.js";
 import axios from 'axios'
 import { hasheadaSonIguales } from "../middlewares/crypto.js";
-import { newToken } from "../middlewares/token.js"
+
 
 
 class UsuariosService {
@@ -28,6 +28,22 @@ class UsuariosService {
                 logger.info(cliente.data.payload);
                 return cliente
             }
+        } catch (error) {
+            logger.error('Error fetching data from external API:', error);
+            throw new Error('Failed to fetch data');
+        }
+    }
+
+    async buscarMail(mail) {
+        try {
+            const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
+            if (!user) {
+                const typedError = new Error('Usuario Inexistente')
+                logger.error("error: mail no encontrado")
+                throw typedError
+            }
+            const usuario = JSON.stringify(user.data.payload, null, 2)
+            return usuario
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
             throw new Error('Failed to fetch data');
