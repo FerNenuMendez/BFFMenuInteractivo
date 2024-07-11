@@ -7,7 +7,8 @@ export async function getController(req, res, next) {
     try {
         await refreshToken(req, res, async (err) => {
             if (err) return next(err);
-            logger.info(req.user);
+            const user = req.user
+            logger.info(JSON.stringify(user));
             return res.status(200).send(req.user);
         });
     } catch (error) {
