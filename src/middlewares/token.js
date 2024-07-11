@@ -48,7 +48,7 @@ export async function refreshToken(req, res, next) {
         req.user = newData
         const newToken = await encriptar(newData);
         logger.info('Nuevo token creado')
-        res.setHeader('authorization', `Bearer ${newToken}`);
+        res.setHeader('authorization', `${newToken}`);
         next();
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
