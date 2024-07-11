@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { postController } from "../controllers/session.controller.js";
+import { deleteController, postController } from "../controllers/session.controller.js";
 
 
 export const sessionRouter = Router()
@@ -10,4 +10,6 @@ sessionRouter.get('/test', (req, res) => {
 })
 //LOGIN
 sessionRouter.post('/', postController)
+//LOGOUT
+sessionRouter.delete('/current', deleteController)
 
