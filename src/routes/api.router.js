@@ -11,7 +11,7 @@ apiRouter.use(manejoDeErrores)
 apiRouter.use(json())
 apiRouter.use(urlencoded({ extended: true }))
 
-apiRouter.use('/usuarios', userRouter)
+apiRouter.use('/user', userRouter)
 apiRouter.use('/session', sessionRouter)
 
 apiRouter.get('/', (req, res) => {
