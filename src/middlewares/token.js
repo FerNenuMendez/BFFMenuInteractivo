@@ -26,18 +26,28 @@ export async function refreshToken(req, res, next) {
     try {
         const token = req.headers['authorization'];
         if (!token) {
+            logger.error('No hay token')
             return res.status(400).send({ error: 'Token is required' });
         }
         const decryptedData = await desencriptar(token);
         if (!decryptedData) {
+            logger.error('Token invalido')
             return res.status(401).send({ error: 'Invalid token' });
         }
         const newData = {
             user: decryptedData.user,
             nombre: decryptedData.nombre,
+            id: decryptedData.id,
+            mail: decryptedData.mail,
+            nombre: decryptedData.nombre,
+            apellido: decryptedData.apellido,
+            cuit: decryptedData.cuit,
+            tiendas: decryptedData.tiendas,
             timestamp: Date.now()
         };
+        req.user = newData
         const newToken = await encriptar(newData);
+        logger.info('Nuevo token creado')
         res.setHeader('Authorization', `Bearer ${newToken}`);
         next();
     } catch (error) {
@@ -48,5 +58,5 @@ export async function refreshToken(req, res, next) {
 }
 
 export function deleteTokenFromCookie(req, res, next) {
-    res.clearCookie('sessionID', cookieOpts)
+    res.clearCookie('authorization', cookieOpts)
 }
