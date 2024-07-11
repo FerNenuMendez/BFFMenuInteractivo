@@ -7,9 +7,8 @@ export async function getController(req, res, next) {
     try {
         await refreshToken(req, res, async (err) => {
             if (err) return next(err);
-            const user = JSON.parse(req.user)
-            logger.info(user);
-            return res.status(200).send(user);
+            logger.info(req.user);
+            return res.status(200).send(req.user);
         });
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
