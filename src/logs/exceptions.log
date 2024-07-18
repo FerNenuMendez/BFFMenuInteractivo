@@ -15,3 +15,78 @@
 2024-07-09 16:24:39 [31merror[39m: ReferenceError: UsuariosService is not defined
     at file:///C:/Users/FerM/Desktop/bff/src/controllers/user.controller.js:3:33
     at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:30:28 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:31:06 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:31:52 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:39:33 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:39:40 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:40:04 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:6:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:46:47 [31merror[39m: TypeError: Invalid protocol
+    at RedisClient.parseURL (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:60:19)
+    at Commander._RedisClient_initiateOptions (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:355:27)
+    at new RedisClient (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:168:148)
+    at new Commander (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\commander.js:44:13)
+    at create (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\index.js:47:16)
+    at createClient (C:\Users\FerM\Desktop\bff\node_modules\redis\dist\index.js:38:38)
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:8:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:48:04 [31merror[39m: ReferenceError: logger is not defined
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:22:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:49:04 [31merror[39m: ReferenceError: logger is not defined
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:22:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:49:56 [31merror[39m: ReferenceError: logger is not defined
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:22:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-07-18 19:50:12 [31merror[39m: ReferenceError: logger is not defined
+    at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:22:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
