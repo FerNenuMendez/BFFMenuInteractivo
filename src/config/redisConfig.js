@@ -8,7 +8,7 @@ const password = `${process.env.redis_KEY}`
 
 const redisClient = createClient({
 
-    password: `${process.env.redis_KEY}`,
+    password: password,
     socket: {
         host: `${process.env.redis_HOST}`,
         port: process.env.redis_PORT
@@ -16,10 +16,13 @@ const redisClient = createClient({
 });
 
 redisClient.on('error', (err) => {
-    console.error('Redis Client Error', err);
+    logger.error('Redis Client Error', err);
 });
 
-redisClient.connect();
-logger.info('User cache listo')
+redisClient.connect().then(() => {
+    logger.info('Conectado a Redis');
+}).catch(err => {
+    logger.error('Redis Connection Error', err);
+});
 
 export default redisClient;
