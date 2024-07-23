@@ -65,12 +65,12 @@ class UsuariosService {
             const user = await axios.get(`http://menu-iota-ten.vercel.app/api/clientes/mail/${mail}`)
             if (!user) {
                 const typedError = new Error('Autenticacion Fallida')
-                logger.error("error de autenticacion: No existe el usuario")
+                logger.error("Error de autenticacion: No existe el usuario")
                 throw typedError
             }
             if (!hasheadaSonIguales(password, user.data.payload.password)) {
                 const typedError = new Error('Autenticacion Fallida')
-                logger.error("error de autenticacion: La contraseña es incorrecta")
+                logger.error("Error de autenticacion: La contraseña es incorrecta")
                 throw typedError
             }
             const usuario = JSON.stringify(user.data.payload, null, 2)

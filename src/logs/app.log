@@ -517,3 +517,147 @@
 2024-07-18 20:30:30 [32minfo[39m: User Controller Cargado
 2024-07-18 20:30:31 [32minfo[39m: Session Controller Cargado
 2024-07-18 20:30:32 [32minfo[39m: Conectado a Redis
+2024-07-19 12:44:30 [32minfo[39m: Cargando configuracion:
+2024-07-19 12:44:30 [32minfo[39m: configuracion lista.
+2024-07-19 12:44:30 [32minfo[39m: User Controller Cargado
+2024-07-19 12:44:31 [32minfo[39m: Session Controller Cargado
+2024-07-19 12:44:31 [32minfo[39m: Conectado a Redis
+2024-07-22 09:57:02 [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-22 09:57:03 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:03 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:04 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:04 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:04 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:05 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:05 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:05 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:06 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:06 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:07 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:07 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:08 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:08 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:09 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:09 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:10 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:10 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:11 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:11 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:12 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:12 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 09:57:13 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 15:23:40 [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-22 15:23:45 [31merror[39m: Error: Connection timeout
+    at Socket.<anonymous> (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:631:28)
+    at Socket.emit (node:events:517:28)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-07-22 15:24:29 [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-22 15:24:34 [31merror[39m: Error: Connection timeout
+    at Socket.<anonymous> (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:631:28)
+    at Socket.emit (node:events:517:28)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-07-22 15:24:39 [31merror[39m: Error: Connection timeout
+    at Socket.<anonymous> (C:\Users\FerM\Desktop\bff\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:631:28)
+    at Socket.emit (node:events:517:28)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-07-22 18:51:10 [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-22 18:51:11 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:11 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:12 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:12 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:12 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:13 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:13 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:13 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:14 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:14 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:15 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:16 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:16 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:17 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:17 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:18 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:18 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:19 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:20 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:20 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:21 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:21 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:22 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:22 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:23 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:23 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:24 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:24 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:25 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:26 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:26 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-07-22 18:51:27 [31merror[39m: Error: getaddrinfo ENOTFOUND redis-13456.c322.us-east-1-2.ec2.redns.redis-cloud.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)

@@ -36,7 +36,6 @@ export async function refreshToken(req, res, next) {
         }
         const newData = {
             user: decryptedData.user,
-            nombre: decryptedData.nombre,
             id: decryptedData.id,
             mail: decryptedData.mail,
             nombre: decryptedData.nombre,
