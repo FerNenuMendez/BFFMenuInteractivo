@@ -7,7 +7,7 @@ export async function postController(req, res, next) {
     try {
         const data = req.body;
         const cliente = await usuariosService.verificarCliente(data);
-        logger.info(cliente);
+        logger.info(`Cliente: ${JSON.stringify(cliente, null, 2)}`);
         req.user = JSON.parse(cliente)
         await newToken(req, res)
     } catch (error) {
