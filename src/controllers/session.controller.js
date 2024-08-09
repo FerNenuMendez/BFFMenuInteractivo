@@ -2,7 +2,7 @@ import { usuariosService } from '../services/user.service.js';
 import { newToken, deleteTokenFromCookie } from '../middlewares/token.js'
 import logger from '../middlewares/logger.js';
 
-
+//CREAR SESSION
 export async function postController(req, res, next) {
     try {
         const data = req.body;
@@ -16,7 +16,7 @@ export async function postController(req, res, next) {
         next(error);
     }
 }
-
+//CERRAR SESSION
 export async function deleteController(req, res) {
     deleteTokenFromCookie,
         (req, res) => {

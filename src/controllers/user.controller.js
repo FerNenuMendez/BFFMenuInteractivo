@@ -3,7 +3,7 @@ import { refreshToken } from '../middlewares/token.js';
 import logger from '../middlewares/logger.js';
 
 
-// Current
+// CURRENT
 export async function getController(req, res, next) {
     try {
         await refreshToken(req, res, async (err) => {
@@ -19,7 +19,7 @@ export async function getController(req, res, next) {
     }
 }
 
-// CREAR Usuario
+// CREAR USUARIOS
 export async function postController(req, res, next) {
     try {
         const data = req.body;

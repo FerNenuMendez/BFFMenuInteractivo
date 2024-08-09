@@ -4,7 +4,7 @@ import { deleteController, postController } from "../controllers/session.control
 
 export const sessionRouter = Router()
 
-//Test
+//TEST
 sessionRouter.get('/test', (req, res) => {
     res.send('Session Router funcionando OK')
 })

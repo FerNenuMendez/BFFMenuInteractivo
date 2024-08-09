@@ -7,6 +7,7 @@ dotenv.config();
 
 const MONGODB_CNX_STR = `${process.env.Mongo__CNX__STR}`;
 
+//CONECTAR BASE DE DATOS
 export async function connect() {
     try {
         if (MODO_EJECUCION === 'online') {
@@ -20,7 +21,7 @@ export async function connect() {
     }
 }
 
-// función para desconectar
+// DESCONECTAR BASE DE DATOS
 export async function disconnect() {
     try {
         await mongoose.disconnect();
