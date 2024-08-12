@@ -24,7 +24,7 @@ export async function newToken(req, res) {
 
 export async function refreshToken(req, res, next) {
     try {
-        const token = req.headers['authorization'];
+        const token = req.headers['token'];
         if (!token) {
             logger.error('No hay token')
             return res.status(400).send({ error: 'Token is required' });
@@ -47,7 +47,7 @@ export async function refreshToken(req, res, next) {
         req.user = newData
         const newToken = await encriptar(newData);
         logger.info('Nuevo token creado')
-        res.setHeader('authorization', `${newToken}`);
+        res.setHeader('token', `${newToken}`);
         next();
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
