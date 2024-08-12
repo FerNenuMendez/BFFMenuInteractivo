@@ -24,7 +24,7 @@ export async function newToken(req, res) {
 
 export async function refreshToken(req, res, next) {
     try {
-        const token = req.headers['token'];
+        const token = req.headers['authorization'];
         if (!token) {
             logger.error('No hay token')
             return res.status(400).send({ error: 'Token is required' });
