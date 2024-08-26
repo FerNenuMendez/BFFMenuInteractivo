@@ -90,3 +90,10 @@
 2024-07-18 19:50:12 [31merror[39m: ReferenceError: logger is not defined
     at file:///C:/Users/FerM/Desktop/bff/src/config/redisConfig.js:22:1
     at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-08-24 12:40:40 [31merror[39m: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\FerM\Desktop\bff\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/FerM/Desktop/bff/src/main.js:5:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
