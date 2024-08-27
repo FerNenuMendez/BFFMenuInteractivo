@@ -4,9 +4,9 @@ import logger from '../middlewares/logger.js'
 export async function postRequestNewPasswordController(req, res, next) {
     try {
         const { mail } = req.body;
-        logger.info(`Correo recibido en controller: ${mail}`);
-        const result = await passwordService.recuperarPassword(mail)
-        res.status(200).json(result);
+        const result = await passwordService.recuperarPassword(mail);
+        logger.info(`Resultado: ${result.message}`);
+        res.status(200).json({ message: result.message });
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);
