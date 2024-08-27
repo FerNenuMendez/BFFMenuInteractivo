@@ -19,8 +19,8 @@ export async function postResetPasswordController(req, res, next) {
         const { password } = req.body
         const { params } = req.params
         const result = await passwordService.guardarPassword(params, password)
-        logger.info(result);
-        res.status(200).json(result);
+        logger.info(`Resultado: ${result.message}`);
+        res.status(200).json({ message: result.message });
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);

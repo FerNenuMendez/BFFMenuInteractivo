@@ -9,7 +9,6 @@ class PassService {
             logger.info(`Respuesta de la API externa: ${response.data}`);
 
             if (response.status === 200 && response.data === 'Mail de recuperacion de contraseña enviado') {
-                logger.info('Proceso de recuperación de contraseña exitoso');
                 return { message: response.data };
             } else {
                 logger.error('Unexpected response format');
@@ -23,10 +22,10 @@ class PassService {
 
     async guardarPassword(token, password) {
         try {
-            const response = await axios.post(`http://menu-iota-ten.vercel.app/api/password/reset-password/${token}`, password);
-            if (response.data && response.data.status === 'success') {
-                logger.info(response.data);
-                return response.data
+            const response = await axios.post(`http://menu-iota-ten.vercel.app/api/password/reset-password/${token}`, { password });
+            if (response.status === 200 && response.data === 'Password cambiada correctamente') {
+                logger.info('Proceso de recuperación de contraseña exitoso');
+                return { message: response.data };
             } else {
                 logger.error('Unexpected response format');
                 throw new Error('Unexpected response format');
