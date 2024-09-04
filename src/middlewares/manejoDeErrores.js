@@ -2,6 +2,9 @@ export function manejoDeErrores(error, req, res, next) {
   let statusCode = 500; // Default
   let errorMessage = "Internal Server Error";
 
+  // Registro del error para depuración
+  console.error('Error recibido:', error);
+
   // Extraer código de estado del mensaje de error si está disponible
   if (error.message && error.message.startsWith('Error ')) {
     const parts = error.message.split(':');
@@ -50,6 +53,7 @@ export function manejoDeErrores(error, req, res, next) {
     message: "Hubo un error en el servidor, intente más tarde. Si el error persiste, contacte al proveedor del servicio."
   });
 }
+
 
 
 
