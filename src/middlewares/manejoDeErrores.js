@@ -1,42 +1,45 @@
 export function manejoDeErrores(error, req, res, next) {
-  let statusCode;
-  let errorMessage;
+  let statusCode = 500; // Default
+  let errorMessage = "Internal Server Error";
 
-  switch (error.status) {
+  // Extraer código de estado del mensaje de error si está disponible
+  if (error.message && error.message.startsWith('Error ')) {
+    const parts = error.message.split(':');
+    const code = parseInt(parts[0].split(' ')[1], 10);
+    if (!isNaN(code)) {
+      statusCode = code;
+      errorMessage = parts[1] || error.message;
+    }
+  }
+
+  // Manejo adicional para estados específicos
+  switch (statusCode) {
     case 400:
-      statusCode = 400;
       errorMessage = "Bad Request";
       break;
     case 401:
-      statusCode = 401;
       errorMessage = "Unauthorized";
       break;
     case 404:
-      statusCode = 404;
       errorMessage = "Not Found";
       break;
     case 407:
-      statusCode = 407;
       errorMessage = "Authentication Required";
       break;
     case 408:
-      statusCode = 408;
       errorMessage = "Request Timeout";
       break;
     case 500:
-      statusCode = 500;
       errorMessage = "Internal Server Error";
       break;
     case 503:
-      statusCode = 503;
       errorMessage = "Service Unavailable";
       break;
     case 522:
-      statusCode = 522;
       errorMessage = "Connection Timed Out";
       break;
     default:
-      statusCode = 500; // Default to 500 Internal Server Error
+      statusCode = 500;
       errorMessage = "Internal Server Error";
       break;
   }
