@@ -8,8 +8,8 @@ export async function postRequestNewPasswordController(req, res, next) {
         logger.info(`Resultado: ${result.message}`);
         res.status(200).json({ message: result.message });
     } catch (error) {
-        logger.error(`Error message: ${error.message}`);
-        logger.error(`Error stack: ${error.stack}`);
+        // logger.error(`Error message: ${error.message}`);
+        // logger.error(`Error stack: ${error.stack}`);
         next(error)
     }
 }
