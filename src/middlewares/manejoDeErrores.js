@@ -50,3 +50,4 @@ export function manejoDeErrores(error, req, res, next) {
     message: "Hubo un error en el servidor, intentelo más tarde. Si el error persiste, contacte al proveedor del servicio."
   });
 }
+
