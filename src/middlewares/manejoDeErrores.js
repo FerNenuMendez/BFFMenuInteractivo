@@ -5,10 +5,10 @@ export function manejoDeErrores(error, req, res, next) {
   // Extraer código de estado del mensaje de error si está disponible
   if (error.message && error.message.startsWith('Error ')) {
     const parts = error.message.split(':');
-    const code = parseInt(parts[0].split(' ')[1], 10);
-    if (!isNaN(code)) {
-      statusCode = code;
-      errorMessage = parts[1] || error.message;
+    const codeMatch = parts[0].match(/\d+/);
+    if (codeMatch) {
+      statusCode = parseInt(codeMatch[0], 10);
+      errorMessage = parts.slice(1).join(':').trim() || error.message;
     }
   }
 
@@ -47,7 +47,8 @@ export function manejoDeErrores(error, req, res, next) {
   res.status(statusCode).json({
     status: errorMessage,
     error: error.message,
-    message: "Hubo un error en el servidor, intentelo más tarde. Si el error persiste, contacte al proveedor del servicio."
+    message: "Hubo un error en el servidor, intente más tarde. Si el error persiste, contacte al proveedor del servicio."
   });
 }
+
 
