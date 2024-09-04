@@ -7,13 +7,15 @@ export function manejoDeErrores(error, req, res, next) {
   // Registro del error para depuración
   logger.error('Error recibido:', error);
 
-  // Extraer código de estado del mensaje de error si está disponible
+  // Extraer código de estado y mensaje del mensaje de error
   if (error.message && error.message.startsWith('Error ')) {
     const parts = error.message.split(':');
-    const codeMatch = parts[0].match(/\d+/);
-    if (codeMatch) {
-      statusCode = parseInt(codeMatch[0], 10);
-      errorMessage = parts.slice(1).join(':').trim() || error.message;
+    if (parts.length > 1) {
+      const codeMatch = parts[0].match(/\d+/);
+      if (codeMatch) {
+        statusCode = parseInt(codeMatch[0], 10);
+        errorMessage = parts.slice(1).join(':').trim() || "Internal Server Error";
+      }
     }
   }
 
@@ -55,7 +57,3 @@ export function manejoDeErrores(error, req, res, next) {
     message: "Hubo un error en el servidor, intente más tarde. Si el error persiste, contacte al proveedor del servicio."
   });
 }
-
-
-
-
