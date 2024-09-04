@@ -1,9 +1,11 @@
+import logger from "./logger.js";
+
 export function manejoDeErrores(error, req, res, next) {
   let statusCode = 500; // Default
   let errorMessage = "Internal Server Error";
 
   // Registro del error para depuración
-  console.error('Error recibido:', error);
+  logger.error('Error recibido:', error);
 
   // Extraer código de estado del mensaje de error si está disponible
   if (error.message && error.message.startsWith('Error ')) {
