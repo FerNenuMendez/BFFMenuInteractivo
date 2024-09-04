@@ -16,7 +16,7 @@ class PassService {
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            throw new Error('Failed to fetch data');
+            res.status(404).json({ error: error.message, message: message })
         }
     }
 
