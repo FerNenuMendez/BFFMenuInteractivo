@@ -16,10 +16,10 @@ class PassService {
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-
-            // Reenvía el error con el código de estado si está disponible
-            if (error.response && error.response.status) {
-                throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
+            if (error.response) {
+                const status = error.response.status;
+                const message = error.response.data || error.message;
+                throw new Error(`Error ${status}: ${message}`);
             } else {
                 throw new Error('Failed to fetch data');
             }
