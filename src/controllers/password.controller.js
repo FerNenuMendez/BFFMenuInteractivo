@@ -10,7 +10,7 @@ export async function postRequestNewPasswordController(req, res, next) {
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);
-        res.status(404).json({ error: error.message })
+        next(error)
     }
 }
 
@@ -24,7 +24,7 @@ export async function postResetPasswordController(req, res, next) {
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);
-        res.status(404).json({ error: error.message })
+        next(error)
     }
 }
 
