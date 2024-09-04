@@ -6,7 +6,7 @@ class PassService {
     async recuperarPassword(mail) {
         try {
             const response = await axios.post('http://menu-iota-ten.vercel.app/api/password/forgot-password/', { mail });
-            logger.info(`Respuesta de la API externa: ${response.data}`); s
+            logger.info(`Respuesta de la API externa: ${response.data}`);
             if (response.status === 200 && response.data === 'Mail de recuperación de contraseña enviado') {
                 return { message: response.data };
             } else {
