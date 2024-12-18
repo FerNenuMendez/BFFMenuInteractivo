@@ -5,6 +5,7 @@ import { hasheadaSonIguales } from "../middlewares/crypto.js";
 
 
 class UsuariosService {
+
     async buscarTodos() {
         try {
             const response = await axios.get('http://menu-iota-ten.vercel.app/api/clientes/');
@@ -63,6 +64,10 @@ class UsuariosService {
                 throw new Error('Failed to fetch data');
             }
         }
+    }
+
+    async crearTienda() {
+
     }
 
     async registrar(data) {

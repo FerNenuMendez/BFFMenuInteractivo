@@ -15,7 +15,7 @@ export async function newToken(req, res) {
             timestamp: Date.now()
         }
         const token = await encriptar(data)
-        res.status(201).send({ token: token })
+        res.status(201).send({ token: token, id: req.user.id })
     } catch (error) {
         logger.error(`Error message: ${error.message}`)
         res.status(500).send({ error: 'Failed to generate token' });
