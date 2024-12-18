@@ -907,3 +907,560 @@
 2024-12-18 16:20:11 [32minfo[39m: User Controller Cargado
 2024-12-18 16:20:11 [32minfo[39m: Session Controller Cargado
 2024-12-18 16:20:11 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:17:09 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:17:09 [32minfo[39m: configuracion lista.
+2024-12-18 17:17:09 [32minfo[39m: User Controller Cargado
+2024-12-18 17:17:09 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:17:09 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:21:55 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:21:55 [32minfo[39m: configuracion lista.
+2024-12-18 17:21:55 [32minfo[39m: User Controller Cargado
+2024-12-18 17:21:55 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:21:55 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:22:02 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:22:02 [32minfo[39m: configuracion lista.
+2024-12-18 17:22:02 [32minfo[39m: User Controller Cargado
+2024-12-18 17:22:02 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:22:02 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:24:27 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:24:27 [32minfo[39m: configuracion lista.
+2024-12-18 17:24:27 [32minfo[39m: User Controller Cargado
+2024-12-18 17:24:27 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:24:27 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:25:03 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:25:03 [32minfo[39m: configuracion lista.
+2024-12-18 17:25:03 [32minfo[39m: User Controller Cargado
+2024-12-18 17:25:03 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:25:03 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:25:25 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:25:25 [32minfo[39m: configuracion lista.
+2024-12-18 17:25:25 [32minfo[39m: User Controller Cargado
+2024-12-18 17:25:25 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:25:25 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:25:28 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:25:28 [32minfo[39m: configuracion lista.
+2024-12-18 17:25:28 [32minfo[39m: User Controller Cargado
+2024-12-18 17:25:28 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:25:28 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:26:36 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:26:36 [32minfo[39m: configuracion lista.
+2024-12-18 17:26:36 [32minfo[39m: User Controller Cargado
+2024-12-18 17:26:36 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:26:36 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:26:53 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:26:53 [32minfo[39m: configuracion lista.
+2024-12-18 17:26:53 [32minfo[39m: User Controller Cargado
+2024-12-18 17:26:53 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:26:53 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:27:08 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:27:08 [32minfo[39m: configuracion lista.
+2024-12-18 17:27:08 [32minfo[39m: User Controller Cargado
+2024-12-18 17:27:08 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:27:08 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:27:46 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:27:46 [32minfo[39m: configuracion lista.
+2024-12-18 17:27:46 [32minfo[39m: User Controller Cargado
+2024-12-18 17:27:46 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:27:46 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:33:04 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:33:04 [32minfo[39m: configuracion lista.
+2024-12-18 17:33:04 [32minfo[39m: User Controller Cargado
+2024-12-18 17:33:04 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:33:04 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:33:07 [31merror[39m: AxiosError: Unsupported protocol ttp:
+    at dispatchHttpRequest (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:266:21)
+    at file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:143:5
+    at new Promise (<anonymous>)
+    at wrapAsync (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:123:10)
+    at http (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:161:10)
+    at Axios.dispatchRequest (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/dispatchRequest.js:51:10)
+    at Axios._request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:173:33)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:40:25)
+    at Axios.httpMethod [as post] (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:212:19)
+    at Function.wrap [as post] (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/helpers/bind.js:5:15)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:68:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:33:07 [31merror[39m: Error message: Failed to fetch data
+2024-12-18 17:33:07 [31merror[39m: Error stack: Error: Failed to fetch data
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:75:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:33:56 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:33:56 [32minfo[39m: configuracion lista.
+2024-12-18 17:33:56 [32minfo[39m: User Controller Cargado
+2024-12-18 17:33:56 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:33:56 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:34:02 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:34:02 [32minfo[39m: configuracion lista.
+2024-12-18 17:34:02 [32minfo[39m: User Controller Cargado
+2024-12-18 17:34:02 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:34:02 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:34:09 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:68:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:34:09 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 17:34:09 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:73:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:44:35 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:44:35 [32minfo[39m: configuracion lista.
+2024-12-18 17:44:35 [32minfo[39m: User Controller Cargado
+2024-12-18 17:44:35 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:44:35 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:50:45 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:68:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:50:45 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 17:50:45 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:73:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:55:56 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:55:56 [32minfo[39m: configuracion lista.
+2024-12-18 17:55:56 [32minfo[39m: User Controller Cargado
+2024-12-18 17:55:56 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:55:56 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:56:00 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:56:00 [32minfo[39m: configuracion lista.
+2024-12-18 17:56:00 [32minfo[39m: User Controller Cargado
+2024-12-18 17:56:00 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:56:00 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:56:04 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:68:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:56:04 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 17:56:04 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:56:57 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:68:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:56:57 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 17:56:57 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:57:43 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:57:43 [32minfo[39m: configuracion lista.
+2024-12-18 17:57:43 [32minfo[39m: User Controller Cargado
+2024-12-18 17:57:43 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:57:43 [32minfo[39m: Pass Controller Cargado
+2024-12-18 17:58:02 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:58:02 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 17:58:02 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 17:59:20 [32minfo[39m: Cargando configuracion:
+2024-12-18 17:59:20 [32minfo[39m: configuracion lista.
+2024-12-18 17:59:20 [32minfo[39m: User Controller Cargado
+2024-12-18 17:59:20 [32minfo[39m: Session Controller Cargado
+2024-12-18 17:59:20 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:00:20 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:00:20 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:00:20 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:01:46 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:01:46 [32minfo[39m: configuracion lista.
+2024-12-18 18:01:46 [32minfo[39m: User Controller Cargado
+2024-12-18 18:01:46 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:01:46 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:01:49 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:01:49 [32minfo[39m: configuracion lista.
+2024-12-18 18:01:49 [32minfo[39m: User Controller Cargado
+2024-12-18 18:01:49 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:01:49 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:01:53 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:01:54 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:01:54 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:02:30 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:02:30 [32minfo[39m: configuracion lista.
+2024-12-18 18:02:30 [32minfo[39m: User Controller Cargado
+2024-12-18 18:02:30 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:02:30 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:02:32 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:02:32 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:02:32 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:03:27 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:03:27 [32minfo[39m: configuracion lista.
+2024-12-18 18:03:27 [32minfo[39m: User Controller Cargado
+2024-12-18 18:03:27 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:03:27 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:03:40 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:03:40 [32minfo[39m: configuracion lista.
+2024-12-18 18:03:40 [32minfo[39m: User Controller Cargado
+2024-12-18 18:03:40 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:03:40 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:03:46 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:03:46 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:03:46 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:33:51 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:33:51 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:33:51 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:34:01 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:34:01 [32minfo[39m: configuracion lista.
+2024-12-18 18:34:01 [32minfo[39m: User Controller Cargado
+2024-12-18 18:34:01 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:34:01 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:34:49 [31merror[39m: AxiosError: Request failed with status code 500
+    at settle (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/FerM/Desktop/Emporio/bff/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:70:30)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:34:49 [31merror[39m: Error message: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+2024-12-18 18:34:49 [31merror[39m: Error stack: Error: Error 500: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+    at UsuariosService.crearTienda (file:///C:/Users/FerM/Desktop/Emporio/bff/src/services/user.service.js:76:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async postCrearTiendaController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/user.controller.js:41:24)
+2024-12-18 18:38:22 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:38:22 [32minfo[39m: configuracion lista.
+2024-12-18 18:38:22 [32minfo[39m: User Controller Cargado
+2024-12-18 18:38:22 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:38:22 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:38:38 [32minfo[39m: [object Object]
+2024-12-18 18:39:19 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:39:19 [32minfo[39m: configuracion lista.
+2024-12-18 18:39:19 [32minfo[39m: User Controller Cargado
+2024-12-18 18:39:19 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:39:19 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:40:22 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:40:22 [32minfo[39m: configuracion lista.
+2024-12-18 18:40:22 [32minfo[39m: User Controller Cargado
+2024-12-18 18:40:22 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:40:22 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:40:33 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:40:33 [32minfo[39m: configuracion lista.
+2024-12-18 18:40:33 [32minfo[39m: User Controller Cargado
+2024-12-18 18:40:33 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:40:33 [32minfo[39m: Pass Controller Cargado
+2024-12-18 18:41:06 [32minfo[39m: {"status":"success","payload":{"userID":["6762e1e9f77bcb872a2335e8"],"nombre":"La vaca lola","mail":"ionbal@gmail.com","domicilio":"Lo de mi tia","productos":[],"ingreso":"2024-12-18T21:41:05.715Z","estado":"Activa","inventario":[],"_id":"67634171ef82dc00aea37362"}}
+2024-12-18 18:41:38 [32minfo[39m: Cargando configuracion:
+2024-12-18 18:41:38 [32minfo[39m: configuracion lista.
+2024-12-18 18:41:38 [32minfo[39m: User Controller Cargado
+2024-12-18 18:41:38 [32minfo[39m: Session Controller Cargado
+2024-12-18 18:41:38 [32minfo[39m: Pass Controller Cargado

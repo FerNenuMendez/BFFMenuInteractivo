@@ -24,8 +24,23 @@ export async function postController(req, res, next) {
     try {
         const data = req.body;
         const result = await usuariosService.registrar(data);
-        logger.info(result);
+        logger.info(JSON.stringify(result));
         res.status(200).json(result);
+    } catch (error) {
+        logger.error(`Error message: ${error.message}`);
+        logger.error(`Error stack: ${error.stack}`);
+        next(error);
+    }
+}
+
+//CREAR TIENDA
+export async function postCrearTiendaController(req, res, next) {
+    try {
+        const { id } = req.params
+        const data = req.body
+        const result = await usuariosService.crearTienda(id, data)
+        logger.info(JSON.stringify(result))
+        res.status(200).json(result)
     } catch (error) {
         logger.error(`Error message: ${error.message}`);
         logger.error(`Error stack: ${error.stack}`);

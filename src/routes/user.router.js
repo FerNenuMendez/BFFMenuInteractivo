@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getController, postController } from "../controllers/user.controller.js";
+import { getController, postController, postCrearTiendaController } from "../controllers/user.controller.js"
 import { refreshToken } from "../middlewares/token.js";
 
 
@@ -14,4 +14,4 @@ userRouter.get("/current", refreshToken, getController)
 //CREAR USUARIO
 userRouter.post("/", postController)
 //CREAR TIENDA 
-userRouter.post("/")
+userRouter.post("/newstore/:id", postCrearTiendaController)

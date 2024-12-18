@@ -18,7 +18,6 @@ class UsuariosService {
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            // Reenvía el error con el código de estado si está disponible
             if (error.response && error.response.status) {
                 throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
             } else {
@@ -36,7 +35,6 @@ class UsuariosService {
             }
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            // Reenvía el error con el código de estado si está disponible
             if (error.response && error.response.status) {
                 throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
             } else {
@@ -57,7 +55,6 @@ class UsuariosService {
             return usuario
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            // Reenvía el error con el código de estado si está disponible
             if (error.response && error.response.status) {
                 throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
             } else {
@@ -66,9 +63,19 @@ class UsuariosService {
         }
     }
 
-    // async crearTienda(){
-
-    // }
+    async crearTienda(id, data) {
+        try {
+            const response = await axios.post(`http://menu-iota-ten.vercel.app/api/clientes/id/${id}/nuevatienda`, data)
+            return response.data;
+        } catch (error) {
+            logger.error('Error fetching data from external API:', error);
+            if (error.response && error.response.status) {
+                throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
+            } else {
+                throw new Error('Failed to fetch data');
+            }
+        }
+    }
 
     async registrar(data) {
         try {
@@ -76,7 +83,6 @@ class UsuariosService {
             return response.data;
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            // Reenvía el error con el código de estado si está disponible
             if (error.response && error.response.status) {
                 throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
             } else {
@@ -102,7 +108,6 @@ class UsuariosService {
             return usuario
         } catch (error) {
             logger.error('Error fetching data from external API:', error);
-            // Reenvía el error con el código de estado si está disponible
             if (error.response && error.response.status) {
                 throw new Error(`Error ${error.response.status}: ${error.response.data || error.message}`);
             } else {
