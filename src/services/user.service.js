@@ -66,9 +66,9 @@ class UsuariosService {
         }
     }
 
-    async crearTienda() {
+    // async crearTienda(){
 
-    }
+    // }
 
     async registrar(data) {
         try {
