@@ -6,21 +6,25 @@ const cookieOpts = { httpOnly: true, maxAge: 1000 * 60 * 60 /*1hs*/, signed: tru
 export async function newToken(req, res) {
     try {
         const data = {
-            id: req.user.id,
+            id: req.user._id,
             mail: req.user.mail,
             nombre: req.user.nombre,
             apellido: req.user.apellido,
             cuit: req.user.cuit,
             tiendas: req.user.tiendas,
             timestamp: Date.now()
-        }
-        const token = await encriptar(data)
-        res.status(201).send({ token: token, id: req.user.id })
+        };
+        const token = await encriptar(data);
+        res.status(201).send({
+            token: token,
+            userId: req.user._id
+        });
     } catch (error) {
-        logger.error(`Error message: ${error.message}`)
+        logger.error(`Error message: ${error.message}`);
         res.status(500).send({ error: 'Failed to generate token' });
     }
 }
+
 
 export async function refreshToken(req, res, next) {
     try {

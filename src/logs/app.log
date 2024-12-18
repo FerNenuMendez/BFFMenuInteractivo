@@ -824,3 +824,76 @@
 2024-12-18 15:53:05 [32minfo[39m: User Controller Cargado
 2024-12-18 15:53:05 [32minfo[39m: Session Controller Cargado
 2024-12-18 15:53:05 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:06:13 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:06:13 [32minfo[39m: configuracion lista.
+2024-12-18 16:06:13 [32minfo[39m: User Controller Cargado
+2024-12-18 16:06:13 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:06:13 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:06:29 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:06:29 [32minfo[39m: configuracion lista.
+2024-12-18 16:06:29 [32minfo[39m: User Controller Cargado
+2024-12-18 16:06:29 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:06:29 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:06:54 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:06:53.924Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:06:54 [31merror[39m: Error message: user is not defined
+2024-12-18 16:06:54 [31merror[39m: Error stack: ReferenceError: user is not defined
+    at postController (file:///C:/Users/FerM/Desktop/Emporio/bff/src/controllers/session.controller.js:12:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-18 16:07:22 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:07:22 [32minfo[39m: configuracion lista.
+2024-12-18 16:07:22 [32minfo[39m: User Controller Cargado
+2024-12-18 16:07:22 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:07:22 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:07:28 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:07:27.500Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:08:29 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:08:29 [32minfo[39m: configuracion lista.
+2024-12-18 16:08:29 [32minfo[39m: User Controller Cargado
+2024-12-18 16:08:29 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:08:29 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:08:36 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:08:36.289Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:08:59 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:08:59 [32minfo[39m: configuracion lista.
+2024-12-18 16:08:59 [32minfo[39m: User Controller Cargado
+2024-12-18 16:08:59 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:08:59 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:11:48 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:11:48 [32minfo[39m: configuracion lista.
+2024-12-18 16:11:48 [32minfo[39m: User Controller Cargado
+2024-12-18 16:11:48 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:11:48 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:11:52 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:11:52 [32minfo[39m: configuracion lista.
+2024-12-18 16:11:52 [32minfo[39m: User Controller Cargado
+2024-12-18 16:11:52 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:11:52 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:12:07 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:12:07 [32minfo[39m: configuracion lista.
+2024-12-18 16:12:07 [32minfo[39m: User Controller Cargado
+2024-12-18 16:12:07 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:12:07 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:12:10 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:12:10 [32minfo[39m: configuracion lista.
+2024-12-18 16:12:10 [32minfo[39m: User Controller Cargado
+2024-12-18 16:12:10 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:12:10 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:13:01 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:13:01.075Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:14:18 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:14:17.748Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:14:59 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:14:58.443Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:15:11 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:15:11 [32minfo[39m: configuracion lista.
+2024-12-18 16:15:11 [32minfo[39m: User Controller Cargado
+2024-12-18 16:15:11 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:15:11 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:15:18 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:15:17.573Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:16:24 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:16:24 [32minfo[39m: configuracion lista.
+2024-12-18 16:16:24 [32minfo[39m: User Controller Cargado
+2024-12-18 16:16:24 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:16:24 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:16:30 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:16:30.214Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:16:42 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:16:42 [32minfo[39m: configuracion lista.
+2024-12-18 16:16:42 [32minfo[39m: User Controller Cargado
+2024-12-18 16:16:42 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:16:42 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:16:44 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:16:44.278Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
