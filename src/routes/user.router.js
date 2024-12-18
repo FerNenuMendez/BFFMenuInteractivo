@@ -6,10 +6,12 @@ import { refreshToken } from "../middlewares/token.js";
 export const userRouter = Router()
 
 //TEST
-userRouter.get('/test', (req, res) => {
-    res.send('User Router funcionando OK')
+userRouter.get("/test", (req, res) => {
+    res.send("User Router funcionando OK")
 })
 //CURRENT
-userRouter.get('/current', refreshToken, getController)
+userRouter.get("/current", refreshToken, getController)
 //CREAR USUARIO
-userRouter.post('/', postController)
+userRouter.post("/", postController)
+//CREAR TIENDA 
+userRouter.post("/")

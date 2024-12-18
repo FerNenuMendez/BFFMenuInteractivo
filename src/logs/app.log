@@ -897,3 +897,13 @@
 2024-12-18 16:16:42 [32minfo[39m: Session Controller Cargado
 2024-12-18 16:16:42 [32minfo[39m: Pass Controller Cargado
 2024-12-18 16:16:44 [32minfo[39m: Cliente: "{\n  \"_id\": \"6762e1e9f77bcb872a2335e8\",\n  \"nombre\": \"Code\",\n  \"apellido\": \"Blitz\",\n  \"dni\": 0,\n  \"telefono\": 123456789,\n  \"mail\": \"codeblitzok@gmail.com\",\n  \"password\": \"$2b$10$5v.Jnu0eOxQrC2qVTYKD1OyGZC//GSgUNGYpyAcsSxiedTHqorCC2\",\n  \"domicilio\": \"Coconut 113 - Balvanera\",\n  \"ingreso\": \"2024-12-18T14:53:28.864Z\",\n  \"tiendas\": [\n    \"67630cbd7b003e1199d165c7\",\n    \"6763146cdf4c580f516583f6\"\n  ],\n  \"inventario\": [],\n  \"lastLogin\": \"2024-12-18T19:16:44.278Z\",\n  \"resetPasswordExpires\": null,\n  \"resetPasswordToken\": null\n}"
+2024-12-18 16:18:57 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:18:57 [32minfo[39m: configuracion lista.
+2024-12-18 16:18:57 [32minfo[39m: User Controller Cargado
+2024-12-18 16:18:57 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:18:57 [32minfo[39m: Pass Controller Cargado
+2024-12-18 16:20:11 [32minfo[39m: Cargando configuracion:
+2024-12-18 16:20:11 [32minfo[39m: configuracion lista.
+2024-12-18 16:20:11 [32minfo[39m: User Controller Cargado
+2024-12-18 16:20:11 [32minfo[39m: Session Controller Cargado
+2024-12-18 16:20:11 [32minfo[39m: Pass Controller Cargado
