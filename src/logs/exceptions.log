@@ -97,3 +97,15 @@
     at Function.listen (C:\Users\FerM\Desktop\bff\node_modules\express\lib\application.js:635:24)
     at file:///C:/Users/FerM/Desktop/bff/src/main.js:5:5
     at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+2024-12-18 20:58:38 [31merror[39m: ReferenceError: deleteTiendaController is not defined
+    at file:///C:/Users/FerM/Desktop/Emporio/bff/src/routes/user.router.js:19:39
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+2024-12-18 21:00:29 [31merror[39m: ReferenceError: deleteTiendaController is not defined
+    at file:///C:/Users/FerM/Desktop/Emporio/bff/src/routes/user.router.js:19:39
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)

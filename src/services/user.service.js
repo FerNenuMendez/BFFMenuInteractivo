@@ -77,6 +77,27 @@ class UsuariosService {
         }
     }
 
+    async eliminarTienda(id, idTienda) {
+        try {
+            console.log(idTienda)
+            const data = idTienda.idTienda
+            const response = await axios.delete(
+                `http://menu-iota-ten.vercel.app/api/clientes/${id}/borrartienda`,
+                { data: { data } }
+            );
+            return response.data;
+        } catch (error) {
+            logger.error('Error al intentar eliminar la tienda:', error.message);
+            if (error.response) {
+                const { status, data } = error.response;
+                logger.error(`Error del servidor externo: ${status} - ${data?.message || 'Sin mensaje'}`);
+                throw new Error(`Error ${status}: ${data?.message || error.message}`);
+            }
+            throw new Error('Error inesperado al intentar eliminar la tienda');
+        }
+    }
+
+
     async registrar(data) {
         try {
             const response = await axios.post('http://menu-iota-ten.vercel.app/api/clientes/', data);
