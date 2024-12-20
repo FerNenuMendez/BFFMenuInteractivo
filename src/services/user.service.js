@@ -81,10 +81,10 @@ class UsuariosService {
         try {
 
             console.log(idTienda.idTienda)
-            const id = idTienda.idTienda
+            const idT = idTienda.idTienda
             const response = await axios.delete(
                 `http://menu-iota-ten.vercel.app/api/clientes/${id}/borrartienda`,
-                { data: { id } }
+                { data: { idT } }
             );
             return response.data;
         } catch (error) {
