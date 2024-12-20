@@ -80,10 +80,10 @@ class UsuariosService {
     async eliminarTienda(id, idTienda) {
         try {
             console.log(idTienda)
-            const data = idTienda.idTienda
+
             const response = await axios.delete(
                 `http://menu-iota-ten.vercel.app/api/clientes/${id}/borrartienda`,
-                { data: { data } }
+                { data: { idTienda } }
             );
             return response.data;
         } catch (error) {
